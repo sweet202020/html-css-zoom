@@ -82,8 +82,13 @@ footer .container{
     width: 100%;
 
 }
+.text{
+    font-size: 10px;
+    padding-top: 10px;
+    color: white;
+}
 footer div{
-    font-size: 35px;
+    font-size: 25px;
 }
 footer span{
     padding: 10px;

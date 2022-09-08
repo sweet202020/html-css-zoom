@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 :root{
+    --zoom-darker: #222222;
     --zoom-dark: #4A4A4A;
     --zoom-icon: #4BC800;
     --zoom-mic: #697480;
@@ -13,6 +14,7 @@
 body{
     background-color: black;
 }
+
 /* #region header */
 header{
     height: 30px;
@@ -65,3 +67,31 @@ img{
     padding: 5px;
 }
 /* #endregion main */
+footer{
+    margin-top: 70px;
+    padding: 30px 0;
+}
+footer .container{
+    background-color: var(--zoom-darker);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+
+}
+footer div{
+    font-size: 35px;
+}
+footer span{
+    padding: 10px;
+    color: white;
+}
+.fa-share-from-square{
+    color: var(--zoom-icon);
+}
+.end{
+    color: var(--zoom-primary);
+    background-color: #4A4A4A;
+    padding: 30px;
+}

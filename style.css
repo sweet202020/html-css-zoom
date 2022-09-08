@@ -13,11 +13,12 @@
 }
 body{
     background-color: black;
+    height: 100vh;
 }
 
 /* #region header */
 header{
-    height: 30px;
+    height: 14.4vh;
     position: relative;
 }
 header div{
@@ -38,6 +39,9 @@ header span{
 }
 /* #endregion header */
 /* #region main */
+main{
+    height: 74.6vh;
+}
 .container{
     width: 85%;
     margin: 0 auto;
@@ -45,7 +49,7 @@ header span{
 .row{
     display: flex;
     flex-wrap: wrap ;
-    margin-top: 70px;
+    
 }
 .col_1{
     width: calc((100% /7)*1);
@@ -67,11 +71,9 @@ img{
     padding: 5px;
 }
 /* #endregion main */
-footer{
-    margin-top: 70px;
-    padding: 30px 0;
-}
+/* #region footer */
 footer .container{
+    height: 11vh;
     background-color: var(--zoom-darker);
     display: flex;
     justify-content: space-between;
@@ -95,3 +97,8 @@ footer span{
     background-color: #4A4A4A;
     padding: 30px;
 }
+.fa-chevron-up{
+    font-size: 15px;
+    padding-left: 10px;
+}
+/* #endregion footer */

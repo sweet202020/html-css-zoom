@@ -6,7 +6,7 @@
 :root{
     --zoom-dark: #4A4A4A;
     --zoom-icon: #4BC800;
-    --zoom-mic: #646F7C;
+    --zoom-mic: #697480;
     --zoom-primary: #DA272E;
 
 }
@@ -35,6 +35,7 @@ header span{
     margin-right: 4px;
 }
 /* #endregion header */
+/* #region main */
 .container{
     width: 85%;
     margin: 0 auto;
@@ -47,7 +48,20 @@ header span{
 .col_1{
     width: calc((100% /7)*1);
     padding: 2px;
+    position: relative;
 }
 img{
     max-width: 100%;
 }
+.pinco{
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    background-color: var(--zoom-mic);
+    padding: 3px;
+    opacity: 0.8;
+}
+.pinco i{
+    padding: 5px;
+}
+/* #endregion main */
